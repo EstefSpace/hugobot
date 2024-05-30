@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bot-info, .commands {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 45%;
+}
+
+.bot-info h2, .commands h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.commands ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.commands li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* CSS para la nueva sección de imágenes del bot */
+
+.bot-images {
+    background-color: #fff; /* Fondo blanco para la sección de imágenes */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-bottom: 20px; /* Espacio adicional debajo de la sección de imágenes */
+}
+
+.bot-images h2 {
+    color: #3498db; /* Color azul para el título */
+    border-bottom: 2px solid #3498db; /* Línea inferior azul para el título */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 500px; /* Tamaño máximo para las imágenes */
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+/* Resto de estilos (header, container, commands, footer) van aquí */
